@@ -4,9 +4,9 @@ HamNoSys is a system for the phonetic transcription of signed languages. The Ham
 
 To use, first install the font HamNoSysUnicode. (If you're using the [Typst web service]("https://typst.app"), you just need to include the font among your uploaded files.)
 
-This defines the functions `#texthamnosys`, which allows input of HamNoSys symbols directly, and `#hamnosys`, which allows input of symbols by name.
+This defines the functions `#hamnosys-text`, which allows input of HamNoSys symbols directly, and `#hamnosys`, which allows input of symbols by name.
 
-Most HamNoSys symbols are defined in the Unicode Private Use Area, so cannot be typed, but if you copy and paste symbols from elsewhere you should use `#texthamnosys` to ensure that the HamNoSysUnicode font is used.
+Most HamNoSys symbols are defined in the Unicode Private Use Area, so cannot be typed, but if you copy and paste symbols from elsewhere you should use `#hamnosys-text` to ensure that the HamNoSysUnicode font is used.
 
 To enter symbols by name, use the `#hamnosys` function.
 

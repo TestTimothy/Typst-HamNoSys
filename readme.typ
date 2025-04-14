@@ -1,4 +1,4 @@
-#import "hamnosys.typ": texthamnosys, hamnosys
+#import "hamnosys.typ": hamnosys, hamnosys-text
 
 = HamNoSys (Hamburg Notation System)
 
@@ -9,24 +9,24 @@ The font (and the symbol names) are taken from the TeX package #link("https://ct
 To use, first install the font HamNoSysUnicode. (If you're using the #link("https://typst.app")[Typst web service], you just need to include the font among your uploaded files.) Second, include the line
 
 ```Typst
-#import "hamnosys.typ": texthamnosys, hamnosys
+#import "hamnosys.typ": hamnosys, hamnosys-text
 ```
 
 in your document.
 
-== `#texthamnosys`
+== `#hamnosys-text`
 
-You can enter the symbols directly into your Typst document. There's no way to actually type most of them, as they're mostly in the Unicode Private Use Area, but this is handy if you want to copy and paste from elsewhere. If you do this, you should wrap them in the `#texthamnosys` function.
+You can enter the symbols directly into your Typst document. There's no way to actually type most of them, as they're mostly in the Unicode Private Use Area, but this is handy if you want to copy and paste from elsewhere. If you do this, you should wrap them in the `#hamnosys-text` function.
 
 This input:
 ```Typst
-#texthamnosys("")
+#hamnosys-text("")
 ```
 
 Gives this output: \
-#texthamnosys("")
+#hamnosys-text("")
 
-If you don't use the function, it might work anyway, but you may have some other font which uses the same Unicode code points for other purposes. (And some of the symbols, such as `hamquery` and `hamexclaim`, are not in the Private Use Area, and are certainly defined by other fonts.) Using `#texthamnosys` ensures that the HamNoSysUnicode font is used, which is what you want.
+If you don't use the function, it might work anyway, but you may have some other font which uses the same Unicode code points for other purposes. (And some of the symbols, such as `hamquery` and `hamexclaim`, are not in the Private Use Area, and are certainly defined by other fonts.) Using `#hamnosys-text` ensures that the HamNoSysUnicode font is used, which is what you want.
 
 == `#hamnosys`
 
@@ -56,3 +56,4 @@ You can sign "Hamburg" as #hamnosys("ceeall, thumbopenmod, fingerstraightmod,
 Since the TeX package which inspired this (and, importantly, the font which this also uses) are under the LPPL, I suppose it's necessary that this is too, though that does feel a bit odd for a Typst package.
 
 #sym.copyright Timothy Green, 2025.
+
