@@ -8,4 +8,5 @@ description = "For using HamNoSys in Typst"
 keywords = ["HamNoSys", "Deaf", "Sign Language", "linguistics"]
 categories = ["text", "languages"]
 disciplines = ["linguistics"]
+exclude = ["readme.pdf"]
 repository = "https://github.com/TestTimothy/Typst-HamNoSys"
