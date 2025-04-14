@@ -1,4 +1,5 @@
 #set page(margin: (top: 1.5cm))
+#show raw: set text(font: ("HamNoSysUnicode", "DejaVu Sans Mono"))
 
 #import "hamnosys.typ": hamnosys, hamnosys-text
 
