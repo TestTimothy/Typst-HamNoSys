@@ -1,3 +1,5 @@
+#set page(margin: (top: 1.5cm))
+
 #import "hamnosys.typ": hamnosys, hamnosys-text
 
 = HamNoSys (Hamburg Notation System)
@@ -6,7 +8,7 @@ HamNoSys is a system for the phonetic transcription of signed languages. The Ham
 
 The font (and the symbol names) are taken from the TeX package #link("https://ctan.org/pkg/hamnosys?lang=en")[_hamnosys_], maintained by Thomas Hanke & Marc Schulder.
 
-To use, first install the font HamNoSysUnicode. (If you're using the #link("https://typst.app")[Typst web service], you just need to include the font among your uploaded files.) Second, include the line
+To use, first install the font HamNoSysUnicode. (If you're using the #link("https://typst.app")[Typst web service], you just need to include the font among your uploaded files.) Without the font, this package is useless. Second, include the line
 
 ```Typst
 #import "hamnosys.typ": hamnosys, hamnosys-text
