@@ -1,0 +1,10 @@
+[package]
+name = "HamNoSys"
+version = "0.1.0"
+entrypoint = "hamnosys.typ"
+authors = ["Timothy Green"]
+license = "LPPL"
+description = "A package."
+keywords = ["HamNoSys", "Deaf", "Sign Language", "linguistics"]
+categories = ["text", "languages"]
+disciplines = ["linguistics"]
