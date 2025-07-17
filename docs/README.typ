@@ -14,7 +14,7 @@ If you're working locally, install the font (or pass its location to Typst with 
 Second, include the line
 
 ```Typst
-#import "hamnosys.typ": ham, hamnosys, hamnosys-text
+#import "@preview/hamnosys-includer:1.0.0": ham, hamnosys, hamnosys-text
 ```
 
 in your document.
